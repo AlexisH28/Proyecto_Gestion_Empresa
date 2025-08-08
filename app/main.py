@@ -4,7 +4,7 @@ from fastapi import FastAPI
 from app.routes import auth  # Importamos el router de autenticación
 
 # Creamos la instancia de la app
-app = FastAPI(title="Gestor de Reservas de Salas")
+app = FastAPI(title="🗂️ Gestor de Reservas de Salas 🗂️")
 
 # Registramos las rutas de autenticación
 app.include_router(auth.router)

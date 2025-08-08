@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 from jose import jwt, JWTError
 
 # Variables para configuración del token JWT
-SECRET_KEY = "secret-key"
+SECRET_KEY = "2812"
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 30
 
